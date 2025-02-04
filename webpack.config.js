@@ -32,4 +32,8 @@ module.exports = {
       // svgr: false
     }),
   ],
+  experiments: {
+    asyncWebAssembly: true,
+    syncWebAssembly: false,
+  },
 };
